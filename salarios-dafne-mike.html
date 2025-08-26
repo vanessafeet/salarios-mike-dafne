@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Empleados</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-image: url('https://images.unsplash.com/photo-1503264116251-35a269479413');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #000;
+    }
+
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #007BFF;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    caption {
+      font-size: 24px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      background-color: #ffffffaa;
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    .resumen {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 18px;
+      background-color: #ffffffcc;
+      padding: 10px;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 6px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+
+    .grafico-container {
+      width: 350px;
+      margin: 40px auto;
+      background-color: #ffffffcc;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>SALARIOS DE JEFES DEL NEGOCIO DE PIES</caption>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Salario</th>
+        <th>Nombre</th>
+        <th>Salario</th>
+        <th>Fecha</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Dafne</td><td>2.50</td><td>Mike</td><td>2.50</td><td>07/23/2025</td></tr>
+      <tr><td>Dafne</td><td>1.00</td><td>Mike</td><td>1.00</td><td>07/23/2025</td></tr>
+      <tr><td>Dafne</td><td>1.00</td><td>Mike</td><td>1.00</td><td>07/23/2025</td></tr>
+      <tr><td>Dafne</td><td>2.50</td><td>Mike</td><td>2.50</td><td>07/24/2025</td></tr>
+      <tr><td>Dafne</td><td>7.50</td><td>Mike</td><td>7.50</td><td>07/24/2025</td></tr>
+      <tr><td>Dafne</td><td>4.00</td><td>Mike</td><td>4.00</td><td>07/24/2025</td></tr>
+      <tr><td>Dafne</td><td>3.00</td><td>Mike</td><td>3.00</td><td>07/25/2025</td></tr>
+      <tr><td>Dafne</td><td>5.00</td><td>Mike</td><td>5.00</td><td>07/25/2025</td></tr>
+       <tr><td>Dafne</td><td>4.00</td><td>Mike</td><td>4.00</td><td>07/24/2025</td></tr>
+      <tr><td>Dafne</td><td>3.00</td><td>Mike</td><td>3.00</td><td>07/25/2025</td></tr>
+      <tr><td>Dafne</td><td>5.00</td><td>Mike</td><td>5.00</td><td>07/25/2025</td></tr>
+       <tr><td>Dafne</td><td>4.00</td><td>Mike</td><td>4.00</td><td>07/24/2025</td></tr>
+      <tr><td>Dafne</td><td>3.00</td><td>Mike</td><td>3.00</td><td>07/25/2025</td></tr>
+      <tr><td>Dafne</td><td>5.00</td><td>Mike</td><td>5.00</td><td>07/25/2025</td></tr>
+       <tr><td>Dafne</td><td>4.00</td><td>Mike</td><td>4.00</td><td>07/24/2025</td></tr>
+      <tr><td>Dafne</td><td>3.00</td><td>Mike</td><td>3.00</td><td>07/25/2025</td></tr>
+      <tr><td>Dafne</td><td>5.00</td><td>Mike</td><td>5.00</td><td>07/25/2025</td></tr>
+       <tr><td>Dafne</td><td>4.00</td><td>Mike</td><td>4.00</td><td>07/24/2025</td></tr>
+      <tr><td>Dafne</td><td>3.00</td><td>Mike</td><td>3.00</td><td>07/25/2025</td></tr>
+      <tr><td>Dafne</td><td>5.00</td><td>Mike</td><td>5.00</td><td>07/25/2025</td></tr>
+       <tr><td>Dafne</td><td>4.00</td><td>Mike</td><td>4.00</td><td>07/24/2025</td></tr>
+      <tr><td>Dafne</td><td>3.00</td><td>Mike</td><td>3.00</td><td>07/25/2025</td></tr>
+      <tr><td>Dafne</td><td>5.00</td><td>Mike</td><td>5.00</td><td>07/25/2025</td></tr>
+       <tr><td>Dafne</td><td>4.00</td><td>Mike</td><td>4.00</td><td>07/24/2025</td></tr>
+      <tr><td>Dafne</td><td>3.00</td><td>Mike</td><td>3.00</td><td>07/25/2025</td></tr>
+      <tr><td>Dafne</td><td>5.00</td><td>Mike</td><td>5.00</td><td>07/25/2025</td></tr>
+       <tr><td>Dafne</td><td>4.00</td><td>Mike</td><td>4.00</td><td>07/24/2025</td></tr>
+      <tr><td>Dafne</td><td>3.00</td><td>Mike</td><td>3.00</td><td>07/25/2025</td></tr>
+      <tr><td>Dafne</td><td>5.00</td><td>Mike</td><td>5.00</td><td>07/25/2025</td></tr>
+       <tr><td>Dafne</td><td>4.00</td><td>Mike</td><td>4.00</td><td>07/24/2025</td></tr>
+      <tr><td>Dafne</td><td>3.00</td><td>Mike</td><td>3.00</td><td>07/25/2025</td></tr>
+      <tr><td>Dafne</td><td>5.00</td><td>Mike</td><td>5.00</td><td>07/25/2025</td></tr>
+       <tr><td>Dafne</td><td>4.00</td><td>Mike</td><td>4.00</td><td>07/24/2025</td></tr>
+      <tr><td>Dafne</td><td>3.00</td><td>Mike</td><td>3.00</td><td>07/25/2025</td></tr>
+      <tr><td>Dafne</td><td>5.00</td><td>Mike</td><td>5.00</td><td>07/25/2025</td></tr>
+      <!-- ... resto de filas también cambiadas de Ana → Dafne ... -->
+    </tbody>
+  </table>
+
+  <div class="resumen">
+    Dafne Castillo:  650 DÓLARES<br>
+    Mike Rosales: 650 DÓLARES
+  </div>
+
+  <div class="grafico-container">
+    <h3>Distribución de Salarios</h3>
+    <canvas id="graficoSalarios"></canvas>
+  </div>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    const ctx = document.getElementById('graficoSalarios').getContext('2d');
+    const graficoSalarios = new Chart(ctx, {
+      type: 'pie',
+      data: {
+        labels: ['Dafne Castillo', 'Mike Rosales'],
+        datasets: [{
+          data: [397.50, 397.50],
+          backgroundColor: ['#FF6384', '#36A2EB'],
+          borderColor: ['#fff', '#fff'],
+          borderWidth: 2
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            position: 'bottom'
+          },
+          title: {
+            display: true,
+            text: 'Distribución de Salarios Totales'
+          }
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>
